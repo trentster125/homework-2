@@ -1,0 +1,7 @@
+background(51);
+size(500,500);
+int i = 25;
+while (i < 475) {
+  ellipse(i,i,25,25);
+  i = i + 20 ; 
+} 
