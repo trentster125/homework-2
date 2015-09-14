@@ -1,0 +1,16 @@
+background(51);
+size(500,500);
+
+
+int y= 25;
+
+while (y<480){
+int x = 25;
+   while (x<480){
+  ellipse(x,y,25,25);
+  x = x + 25;
+}
+y = y + 25;
+
+
+}
